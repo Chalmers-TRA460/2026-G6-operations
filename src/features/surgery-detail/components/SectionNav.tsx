@@ -22,7 +22,7 @@ export function SectionNav({ sections }: Props) {
   }
 
   return (
-    <nav className="sticky top-[65px] z-30 bg-base-100 border-b border-base-300 shadow-sm">
+    <nav className="sticky top-16 z-30 bg-base-100 border-b border-base-300 shadow-sm">
       <div className="max-w-3xl mx-auto px-4">
         <ul className="flex gap-1 overflow-x-auto py-2 scrollbar-none">
           {sections.map((section) => {

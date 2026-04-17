@@ -9,7 +9,7 @@ export function PatientContent({ title, sections }: Props) {
       <h1 className="text-3xl font-bold mb-10">{title}</h1>
       <div className="flex flex-col gap-16">
         {sections.map((section) => (
-          <section key={section.id} id={section.id} className="scroll-mt-32">
+          <section key={section.id} id={section.id} className="scroll-mt-28">
             <h2 className="text-2xl font-bold mb-6 pb-3 border-b border-base-300">
               {section.title}
             </h2>
@@ -47,7 +47,7 @@ function Block({ block }: { block: ContentBlock }) {
         <div
           className={`alert ${
             block.variant === 'error'
-              ? 'alert-error'
+              ? 'alert-error alert-outline'
               : block.variant === 'warning'
               ? 'alert-warning'
               : 'alert-info'
