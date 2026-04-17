@@ -7,6 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 This is **Group 6's Digital Health Implementation** for TRA460 at Chalmers University of Technology. The product is a **multilingual surgical patient education platform** — a web app that walks patients through the preoperative, intraoperative, and postoperative phases using plain language, visuals, and videos. See `PRD.md` for the full product requirements.
 
 Key product constraints from the PRD:
+- Mobile friendly
 - Multilingual from the start — language selection happens at app entry and saved to browser
 - Must be accessible to users with low health literacy and low digital confidence
 
