@@ -239,5 +239,4 @@ The overall vision is to make surgical patient education simpler, more visual, a
 | Version | Date       | Summary of Changes                                |
 |---------|------------|---------------------------------------------------|
 | 1.0     | 2026-04-17 | Initial draft after first clinical mentor meeting |
-|---------|------------|---------------------------------------------------|
 | 1.1    | 2026-05-05 | After receiving feedback, updated Section to be more specific |
