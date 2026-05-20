@@ -24,17 +24,24 @@
 
 ## 1. Needs Statement [Required]
 
-There is an unmet need for patient education in surgical care that is easier to understand, more accessible, and available in multiple languages. Current verbal communication during consultations is often insufficient for patients who have difficulty understanding medical terminology, experience stress related to surgery, or struggle to retain the information provided. This is especially relevant for first-time surgical patients, older adults, and others with low health literacy. An improved solution should support patient understanding throughout the perioperative pathway and reduce the repetitive informational burden placed on healthcare professionals.
+A way to deliver clear, surgery-specific, multilingual education for patients with low health literacy, especially older adults, that improves their ability to understand and follow key instructions before and after surgery.
+Patients with low health literacy may be unfamiliar with what to expect before, during, and after surgery. This can make it difficult to remember preparation steps, understand the procedure, follow recovery guidance, and recognize warning signs.
+For this project, success means that patients can understand the main steps of their surgical journey, follow key preparation and recovery instructions, and know when to contact healthcare services.
 
 ---
 
 ### 1.1 Clinical Context & Background [Required]
 
-Patients undergoing surgery are often required to process large amounts of complex information about preparation, the procedure, recovery, and warning signs. Because this information is typically delivered during time-limited consultations and under stressful circumstances, many patients have difficulty understanding, retaining, and later acting on what they have been told. This can result in uncertainty, reduced preparedness, and an increased need for follow-up clarification after the consultation.
+First-time surgical patients are required to understand information across the full surgical care journey, including how to prepare before surgery, what will happen during the procedure, what to expect during recovery, and which warning signs require medical attention. This can be difficult when information is delivered verbally during time-limited consultations, especially for patients who are stressed, unfamiliar with medical terminology, older, or have low health literacy.
+Patients need to understand and act on both preoperative and postoperative instructions, but traditional verbal and written information may not always be enough. Multimedia education may help address this problem: a systematic review found that videos have potential as a supplement to traditional preoperative patient education, although the evidence is still mixed and context-dependent (Tom et al., 2022).
+In Sweden, patients can access general healthcare information through services such as 1177. However, general information does not fully address the workflow targeted in this project: helping healthcare professionals quickly generate and share surgery-specific, multilingual, visual education that patients can revisit before and after surgery.
 
 ### 1.2 Key Clinical Insights [Required]
 
-Patients undergoing surgery frequently remain uncertain about important aspects of their care. This includes the procedure itself, recovery, expected outcomes, and aftercare. Information is often communicated across multiple providers and at different stages of the care pathway, which may result in fragmentation and reduced continuity from the patient's perspective. In addition, pain, stress, illness, complexity, and time constraints can limit the patient's ability to understand and retain what has been communicated.
+Surgical patient education is not only about giving patients information, but about helping them understand what the information means for their own care journey. Patients may receive explanations about preparation, the procedure, recovery, and warning signs, but still struggle to connect this information to their specific surgery and daily life after the operation.
+A key clinical insight is that many patients do not fully understand the surgery itself. They may know that they are scheduled for an operation, but remain uncertain about what the surgery is, why it is performed, how it is carried out, and what changes or limitations they should expect afterward. This can make the surgical journey feel unclear and may reduce the patient’s ability to prepare, recover, and seek help appropriately.
+This was also reflected in the mentor discussion with surgeon Donia Kaidi, who emphasized that many patients struggle to understand three central parts of surgical care: what the surgery is, how it is performed, and how they should live after surgery. These insights suggest that patient education needs to explain the surgical journey in a more concrete and visual way, rather than relying only on verbal explanations or general written information.
+Another important insight is that the same types of questions and uncertainties often recur across patients. This creates a repeated informational burden for nurses and other healthcare professionals. A useful solution should therefore support both sides of the care interaction: patients need simple, surgery-specific information they can revisit, while healthcare professionals need a practical way to generate and share that information without adding significant workload.
 
 ### 1.3 Existing Solutions & Gaps [Required]
 
@@ -42,12 +49,21 @@ Existing solutions, including platforms such as 1177, provide relevant patient i
 
 ### 1.4 Success Metrics [Recommended]
 
-At this stage, success is defined qualitatively rather than through fixed quantitative thresholds, given the heterogeneity of patient groups and clinical contexts. The proposed solution should contribute to:
-
-- Improved patient understanding of the surgical pathway
-- Improved patient preparedness before surgery and recovery afterward
-- Reduced time spent by healthcare professionals on repeated explanation and clarification
-- Improved patient satisfaction with the information received
+At this stage, success will be evaluated through early qualitative and prototype-based measures rather than fixed clinical outcome targets. The main goal is to assess whether the solution helps patients better understand their surgical journey and whether healthcare professionals can use it without adding significant workload.
+Success for patients means that they can understand and act on the most important information before and after surgery. This can be assessed by whether patients are able to:
+describe the key preparation steps before surgery
+- explain, in simple terms, what their surgery is and how it is performed
+- identify what to expect during recovery
+- understand how they should live or adjust daily activities after surgery
+- recognize warning signs that require medical attention
+- know when to contact healthcare services
+Success for healthcare professionals means that the tool is practical to use in a clinical workflow. This can be assessed by whether nurses or other healthcare professionals are able to:
+- select the relevant surgery
+- configure the surgery type
+- generate a tailored patient education page
+- preview the result
+- share the page with the patient through a link or QR code
+Additional success indicators include patient satisfaction with the information, perceived clarity of the visualizations and videos, successful use of the preferred-language function, and reduced need for repeated explanation after the consultation.
 
 ---
 
@@ -57,7 +73,6 @@ At this stage, success is defined qualitatively rather than through fixed quanti
 
 The primary users are patients undergoing surgery, with particular focus on those who face additional barriers to understanding and retaining clinical information. This includes patients with one or more of the following characteristics:
 
-- First-time surgical patients
 - Low health literacy
 - Language barriers
 - Cognitive impairment or reduced ability to retain verbal information
@@ -116,9 +131,7 @@ The overall vision is to make surgical patient education simpler, more visual, a
 - **FR7: Explanation of preoperative preparation** — The platform must explain key preoperative instructions such as fasting and hygiene, including why these instructions matter.
 - **FR8: Explanation of the procedure** — The platform must provide a clear explanation of how the surgery is performed, with focus on visualization, such as images and videos with audio to explain.
 - **FR9: Postoperative recovery guidance** — The platform must provide recovery information, including: expected course after surgery, common causes of pain/discomfort, warning signs requiring attention, when and how to seek care.
-- **FR10: Caregiver access/view** — The platform must include a caregiver/relative view or tab containing relevant information for people supporting the patient.
-- **FR11: FAQ section** — The platform must include a frequently asked questions section addressing common patient concerns before and after surgery.
-- **FR12: Web-based access on common devices** — The solution must be accessible through a web interface on common devices such as smartphones, tablets, and computers, without requiring advanced digital skills.
+- **FR10: Web-based access on common devices** — The solution must be accessible through a web interface on common devices such as smartphones, tablets, and computers, without requiring advanced digital skills.
 
 **Should Have** — *High value, but the MVP could technically function without these*
 
@@ -221,3 +234,5 @@ The overall vision is to make surgical patient education simpler, more visual, a
 | Version | Date       | Summary of Changes                                |
 |---------|------------|---------------------------------------------------|
 | 1.0     | 2026-04-17 | Initial draft after first clinical mentor meeting |
+|---------|------------|---------------------------------------------------|
+| 1.1    | 2026-05-05 | After receiving feedback, updated Section to be more specific |
