@@ -2,15 +2,9 @@
 ## Product Requirements Document
 
 > **TRA460: Digital Health Implementation** | Chalmers University of Technology
-
-> **v1.0 Section Guide:**
-> - **[Required]** — Must be substantive for this submission to pass.
-> - **[Recommended]** — Optional for v1.0, but strengthens your foundation.
-> - **[Expand Later]** — Scaffolding for future iterations. Initial thoughts welcome.
-
 ---
 
-### Project Details [Required]
+### Project Details 
 
 | Field               | Value                                                                                                                               |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -22,7 +16,7 @@
 
 ---
 
-## 1. Needs Statement [Required]
+## 1. Needs Statement 
 
 A way to deliver clear, surgery-specific, multilingual education for patients with low health literacy, especially older adults, that improves their ability to understand and follow key instructions before and after surgery.
 Patients with low health literacy may be unfamiliar with what to expect before, during, and after surgery. This can make it difficult to remember preparation steps, understand the procedure, follow recovery guidance, and recognize warning signs.
@@ -30,24 +24,24 @@ For this project, success means that patients can understand the main steps of t
 
 ---
 
-### 1.1 Clinical Context & Background [Required]
+### 1.1 Clinical Context & Background
 
 First-time surgical patients are required to understand information across the full surgical care journey, including how to prepare before surgery, what will happen during the procedure, what to expect during recovery, and which warning signs require medical attention. This can be difficult when information is delivered verbally during time-limited consultations, especially for patients who are stressed, unfamiliar with medical terminology, older, or have low health literacy.
 Patients need to understand and act on both preoperative and postoperative instructions, but traditional verbal and written information may not always be enough. Multimedia education may help address this problem: a systematic review found that videos have potential as a supplement to traditional preoperative patient education, although the evidence is still mixed and context-dependent (Tom et al., 2022).
 In Sweden, patients can access general healthcare information through services such as 1177. However, general information does not fully address the workflow targeted in this project: helping healthcare professionals quickly generate and share surgery-specific, multilingual, visual education that patients can revisit before and after surgery.
 
-### 1.2 Key Clinical Insights [Required]
+### 1.2 Key Clinical Insights 
 
 Surgical patient education is not only about giving patients information, but about helping them understand what the information means for their own care journey. Patients may receive explanations about preparation, the procedure, recovery, and warning signs, but still struggle to connect this information to their specific surgery and daily life after the operation.
 A key clinical insight is that many patients do not fully understand the surgery itself. They may know that they are scheduled for an operation, but remain uncertain about what the surgery is, why it is performed, how it is carried out, and what changes or limitations they should expect afterward. This can make the surgical journey feel unclear and may reduce the patient’s ability to prepare, recover, and seek help appropriately.
 This was also reflected in the mentor discussion with surgeon Donia Kaidi, who emphasized that many patients struggle to understand three central parts of surgical care: what the surgery is, how it is performed, and how they should live after surgery. These insights suggest that patient education needs to explain the surgical journey in a more concrete and visual way, rather than relying only on verbal explanations or general written information.
 Another important insight is that the same types of questions and uncertainties often recur across patients. This creates a repeated informational burden for nurses and other healthcare professionals. A useful solution should therefore support both sides of the care interaction: patients need simple, surgery-specific information they can revisit, while healthcare professionals need a practical way to generate and share that information without adding significant workload.
 
-### 1.3 Existing Solutions & Gaps [Required]
+### 1.3 Existing Solutions & Gaps 
 
 Existing solutions, including platforms such as 1177, provide relevant patient information but do not fully address the needs of all surgical patients. Information is often presented primarily as text, with limited use of visuals or interactive elements that could improve understanding. Existing solutions may also not provide enough support for patients who need information in languages other than Swedish.
 
-### 1.4 Success Metrics [Recommended]
+### 1.4 Success Metrics 
 
 At this stage, success will be evaluated through early qualitative and prototype-based measures rather than fixed clinical outcome targets. The main goal is to assess whether the solution helps patients better understand their surgical journey and whether healthcare professionals can use it without adding significant workload.
 Success for patients means that they can understand and act on the most important information before and after surgery. This can be assessed by whether patients are able to:
@@ -69,7 +63,7 @@ Additional success indicators include patient satisfaction with the information,
 
 ## 2. Stakeholders & Users
 
-### 2.1 Primary User(s) [Required]
+### 2.1 Primary User(s) 
 
 The primary users are patients undergoing surgery, with particular focus on those who face additional barriers to understanding and retaining clinical information. This includes patients with one or more of the following characteristics:
 
@@ -78,7 +72,7 @@ The primary users are patients undergoing surgery, with particular focus on thos
 - Cognitive impairment or reduced ability to retain verbal information
 - Older age and limited digital confidence
 
-### 2.2 Other Stakeholders [Required]
+### 2.2 Other Stakeholders 
 
 Other key stakeholders include:
 
@@ -87,7 +81,7 @@ Other key stakeholders include:
 - Hospitals and surgical departments responsible for patient education and care delivery
 - Public health information platforms such as 1177
 
-### 2.3 User Journey — Current State [Recommended]
+### 2.3 User Journey — Current State 
 
 ![alt text](<Current User Journey.drawio.png>)
 
@@ -118,7 +112,7 @@ The overall vision is to make surgical patient education simpler, more visual, a
 
 ## 4. Requirements
 
-### 4.1 Functional Requirements (MoSCoW) [Recommended]
+### 4.1 Functional Requirements (MoSCoW) 
 
 **Must Have** — *Non-negotiable for a functioning MVP*
 
@@ -152,7 +146,7 @@ The overall vision is to make surgical patient education simpler, more visual, a
 - **FR21: Automated translation without validation** — The MVP will not rely on unvalidated machine translation for medical instructions.
 - **FR22: Broad disease management outside the surgical pathway** — The MVP will focus on surgical patient education only, not on general chronic disease management or unrelated care pathways.
 
-### 4.2 Non-Functional Requirements & Constraints [Recommended]
+### 4.2 Non-Functional Requirements & Constraints 
 
 **NFR1. Accessibility and Usability**
 - The platform must be usable by patients with low digital confidence and low health literacy.
@@ -201,7 +195,7 @@ The overall vision is to make surgical patient education simpler, more visual, a
 
 ---
 
-## 5. Technical Direction [Expand Later]
+## 5. Technical Direction 
 
 - **Platform:** [iOS / Android / Web / Cross-platform / TBD]
 - **Key Integrations:** [EHR systems, wearables, sensors, APIs, etc.]
@@ -210,7 +204,7 @@ The overall vision is to make surgical patient education simpler, more visual, a
 
 ---
 
-## 6. Open Questions & Risks [Required]
+## 6. Open Questions & Risks 
 
 - **[Question/Risk]: How much detail should surgical explanations include without overwhelming patients?**
   There is a risk that providing too much detail may reduce comprehension, while too little detail may leave patients unprepared.
@@ -229,7 +223,7 @@ The overall vision is to make surgical patient education simpler, more visual, a
 
 ---
 
-## Changelog [Required]
+## Changelog 
 
 | Version | Date       | Summary of Changes                                |
 |---------|------------|---------------------------------------------------|
